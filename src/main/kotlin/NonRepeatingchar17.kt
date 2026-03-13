@@ -10,6 +10,7 @@ fun main() {
             map[ch] = 1
         }
 
+
     }
     for(ch in str) {
         if(map[ch]==1) {
