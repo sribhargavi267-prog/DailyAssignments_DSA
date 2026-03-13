@@ -8,9 +8,9 @@ fun binarySearch(arr: Array<Int>,start:Int,end:Int,target:Int) :Int {
     if(arr[mid]==target) {
         return 1
     }
-    else if(arr[mid]<target) {
+    else if(arr[mid] < target) {
 
-        return binarySearch(arr,mid+1,end,target)
+        return binarySearch(arr, mid + 1, end, target)
 
     }
     else {
@@ -24,7 +24,7 @@ fun main() {
     print("Enter number of elements:")
     val n = readln().toInt()
     println("Enter $n elements:")
-    var arr = Array<Int>(n) { 0 }
+    val arr = Array<Int>(n) { 0 }
     for (i in 0 until n) {
         arr[i] = readln().toInt()
     }
