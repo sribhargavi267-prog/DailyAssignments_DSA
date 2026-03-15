@@ -1,4 +1,4 @@
-package org.example
+
 
 fun linearSearch(n: Int, arr: Array<Int>, target: Int):Int {
 
@@ -14,7 +14,7 @@ fun linearSearch(n: Int, arr: Array<Int>, target: Int):Int {
 fun main() {
 
     print("Enter number of elements:")
-    val n = readln().toInt()
+    var n = readln().toInt()
     println("Enter $n elements:")
     var arr = Array<Int>(n) { 0 }
     for (i in 0 until n) {
